@@ -1,8 +1,16 @@
 aid: fabric
 name: Fabric
-description: Fabric is a company surfaced as a portfolio company of general-catalyst, gv, playground-global,
-  seedcamp, softbank-vision-fund and added to the API Evangelist network as a stub for enrichment. This
-  profile is a lead awaiting the enrichment pipeline.
+description: 'Fabric is a healthcare care-enablement platform (formerly Zipnosis,
+  rebranded to Fabric in 2024) that streamlines access to virtual and in-person care.
+  Its AI-powered system automates patient intake, symptom gathering, triage, and routing
+  while integrating with existing EMR systems, serving health systems, hospitals,
+  health plans, employers, and brokers. The platform spans synchronous and asynchronous
+  virtual care delivery, an AI navigation and symptom-checking assistant, an intelligent
+  provider directory and scheduling layer, a 50-state virtual clinical network (Evo),
+  and patient engagement and care-management pathways. Fabric was assembled through
+  the acquisitions of Zipnosis, GYANT, MeMD, TeamHealth Virtual Care, and UCM Digital
+  Health. As of this profile Fabric does not publish a public developer API, SDKs,
+  or a developer portal; integration is EMR-based and arranged via sales.'
 url: https://raw.githubusercontent.com/api-evangelist/fabric/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,11 +22,31 @@ x-backed-by:
 - softbank-vision-fund
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cdn.prod.website-files.com/65c1ba158f799a2bf146fce9/65ef990209fdc8fb2eb4d415_Fabric%20Open%20Graph.png
 tags:
 - Company
+- Healthcare
+- Telehealth
+- Virtual Care
+- Digital Health
+- Patient Engagement
+- Care Navigation
+- AI Triage
+- EMR Integration
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,5 +54,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/fabric-domain-security.yml
 - type: Website
   url: https://www.fabrichealth.com/
+- type: Blog
+  url: https://www.fabrichealth.com/blog
+- type: About
+  url: https://www.fabrichealth.com/about
+- type: Support
+  url: https://www.fabrichealth.com/contact
+- type: PrivacyPolicy
+  url: https://www.fabrichealth.com/privacy-policy
+- type: TermsOfService
+  url: https://www.fabrichealth.com/terms-conditions
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
